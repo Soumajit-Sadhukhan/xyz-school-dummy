@@ -1,0 +1,13 @@
+{
+  "name": "xyz-school-portal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "client:install": "npm install --prefix client",
+    "server:install": "npm install --prefix server",
+    "install:all": "npm install --prefix client && npm install --prefix server",
+    "client:dev": "npm run dev --prefix client",
+    "server:dev": "npm run dev --prefix server",
+    "client:build": "npm run build --prefix client"
+  }
+}

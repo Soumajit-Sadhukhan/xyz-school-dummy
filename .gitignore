@@ -1,0 +1,69 @@
+# ==============================
+# Node modules (all workspaces)
+# ==============================
+node_modules/
+**/node_modules/
+
+# ==============================
+# Build outputs
+# ==============================
+client/dist/
+client/.vite/
+
+# ==============================
+# Environment files (NEVER commit real secrets)
+# ==============================
+.env
+.env.local
+.env.production
+.env.*.local
+server/.env
+client/.env
+
+# ==============================
+# Logs
+# ==============================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==============================
+# OS generated files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ==============================
+# Editor / IDE files
+# ==============================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==============================
+# Temporary and cache files
+# ==============================
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+
+# ==============================
+# MongoDB memory server binary cache
+# ==============================
+.mongo-cache/
+**/mongodb-binaries/
+
+# ==============================
+# Original design mockup folder (large PNG screenshots – not needed for deployment)
+# ==============================
+stitch_xyz_school_portal/
